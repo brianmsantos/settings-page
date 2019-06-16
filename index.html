@@ -11,185 +11,222 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="container">
-          <div>
-            <div class="card" style="width: 18rem;">
-              <div class="card-header">User Settings</div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fas fa-users"></i> Profile</li>
-                <li class="list-group-item"><i class="fas fa-users"></i> Security</li>
-                <li class="list-group-item"><i class="fas fa-users"></i> See All Teams</li>
-              </ul>
-            </div>
-            <br>
-            <div class="card" style="width: 18rem;">
-              <div class="card-header">Team Settings</div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fas fa-user-alt"></i> Team Profile</li>
-                <li class="list-group-item"><i class="fas fa-check-circle"></i> Membership</li>
-                <li class="list-group-item"><i class="fas fa-check-circle"></i> Locations</li>
-                <li class="list-group-item"><i class="fas fa-check-circle"></i> Autopilot Survey</li>
-                <li class="list-group-item"><i class="fas fa-check-circle"></i> Notifications</li>
-                <li class="list-group-item"><i class="fas fa-user-alt"></i> Secret Shopper Survey</li>
-              </ul>
-            </div>
-            <br>
-            <div class="card" style="width: 18rem;">
-              <div class="card-header">Team Billing</div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="fas fa-sync-alt"></i> Subscription</li>
-                <li class="list-group-item"><i class="far fa-credit-card"></i> Payment Method</li>
-                <li class="list-group-item"><i class="fas fa-shopping-cart"></i> Invoices</li>
-              </ul>
-            </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+    <div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">User Settings</div>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item"><i class="fas fa-users"></i> Profile</li>
+        <li class="list-group-item"><i class="fas fa-users"></i> Security</li>
+        <li class="list-group-item"><i class="fas fa-users"></i> See All Teams</li>
+        </ul>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">Team Settings</div>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item"><i class="fas fa-user-alt"></i> Team Profile</li>
+        <li class="list-group-item"><i class="fas fa-check-circle"></i> Membership</li>
+        <li class="list-group-item"><i class="fas fa-check-circle"></i> Locations</li>
+        <li class="list-group-item"><i class="fas fa-check-circle"></i> Autopilot Survey</li>
+        <li class="list-group-item"><i class="fas fa-check-circle"></i> Notifications</li>
+        <li class="list-group-item"><i class="fas fa-user-alt"></i> Secret Shopper Survey</li>
+        </ul>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">Team Billing</div>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item"><i class="fas fa-sync-alt"></i> Subscription</li>
+        <li class="list-group-item"><i class="far fa-credit-card"></i> Payment Method</li>
+        <li class="list-group-item"><i class="fas fa-shopping-cart"></i> Invoices</li>
+        </ul>
+    </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="card text-default">
+      <div class="card-header">Profile Photo</div>
+        <div class="card-body">
+        Enter Profile Photo
+        <br>
+        <br>
+        <div class="form-group row mb-0 justify-content-center">
+          <div class="col-md-6 offset-md-4">
+            <button type="submit" class="btn btn-primary">Update Photo</button>
           </div>
-          <br>
-          <div class="container">
-              <div class="card text-center">
-              <div class="card-header">Profile Photo</div>
-              <div class="card-body">
-                ENTER PROFILE PHOTO
-                <br>
-                <br>
-                <a href="#" class="btn btn-primary">Update Photo</a>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <br>
-            <div class="card text-center">
-              <div class="card-header">Contact Information</div>
-                <div class="card-body">
-                  <form>
+        </div>
+        </div>
+      </div>
+    <br>
+    <div class="card card-default">
+        <div class="card-header">Contact Information</div>
+        <div class="card-body">
+            <form>
+                <!-- Name Field -->
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label
+                    text-md-right">Name</label>
+                    <div class="col-md-6">
+                        <input type="text" name="name" class="form-control">
+                    </div>
+                </div>
+                <!-- Email Address -->
+                <div class="form-group row">
+                        <label class="col-md-4 col-form-label
+                        text-md-right">Email</label>
+                        <div class="col-md-6">
+                        <input type="email" name="email" class="form-control">
+                </div>
+                <!-- Phone Field -->
+                    </div>
                     <div class="form-group row">
-                      <label for="name" class="col-sm-2 col-form-label">Name</label>
-                      <div class="col-sm-10">
-                        <input type="text" class="form-control">
-                      </div>
-                      <br>
-                      <br>
-                      <label for="email" class="col-sm-2 col-form-label">Email</label>
-                      <div class="col-sm-10">
-                        <input type="text" class="form-control">
-                      </div>
-                      <br>
-                      <br>
-                      <label for="phone" class="col-sm-2 col-form-label">Phone</label>
-                      <div class="col-sm-10">
-                        <input type="number" class="form-control">
-                      </div>
-                      <br>
-                      <br>
-                       <a href="#" class="btn btn-primary">Update</a>
+                            <label class="col-md-4 col-form-label
+                            text-md-right">Phone</label>
+                            <div class="col-md-6">
+                            <input type="phone" name="phone" class="form-control">
+                        </div>
                     </div>
-                  </form>
-                </div>
-            </div>
-          </div>
-          <br>
-          <div class="container">
-            <div class="card card-default">
-                <div class="card-header">Contact Information</div>
-                <div class="card-body">
-                    <form>
-                        <!-- Name Field -->
-                        <div class="form-group row">
-                            <label class="col-md-4 col-form-label
-                            text-md-right">Name</label>
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control">
-                            </div>
-                        </div>
-                        <!-- Email Address -->
-                        <div class="form-group row">
-                                <label class="col-md-4 col-form-label
-                                text-md-right">Email</label>
-                                <div class="col-md-6">
-                                <input type="email" name="email" class="form-control">
-                        </div>
-                        <!-- Phone Field -->
-                            </div>
-                            <div class="form-group row">
-                                    <label class="col-md-4 col-form-label
-                                    text-md-right">Phone</label>
-                                    <div class="col-md-6">
-                                    <input type="phone" name="phone" class="form-control">
-                                </div>
-                            </div>
-                            <!-- Update Button -->
-                        <div class="form-group row mb-0 justify-content-center">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">Update</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-          </div>
-          <br>
-          <div class="container">
-            <div class="card card-default">
-                <div class="card-header">Create Team</div>
-                <div class="card-body">
-                    <form>
-                        <!-- Team Name -->
-                        <div class="form-group row">
-                            <label class="col-md-4 col-form-label
-                            text-md-right">Team Name</label>
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control">
-                            </div>
-                        </div>
-                        <!-- Create Button -->
-                      <div class="form-group row mb-0 justify-content-center">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">Create</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-          </div>
-          <br>
-            <div class="container">
-                <div class="card card-default">
-                    <div class="card-header">Update Password</div>
-                    <div class="card-body">
-                        <form>
-                            <!-- Name Field -->
-                            <div class="form-group row">
-                                <label class="col-md-4 col-form-label
-                                text-md-right">Current Password</label>
-                                <div class="col-md-6">
-                                    <input type="password" name="current-password" class="form-control">
-                                </div>
-                            </div>
-                            <!-- Email Address -->
-                            <div class="form-group row">
-                                    <label class="col-md-4 col-form-label
-                                    text-md-right">Password</label>
-                                    <div class="col-md-6">
-                                    <input type="password" name="new-password" class="form-control">
-                            </div>
-                            <!-- Phone Field -->
-                                </div>
-                                <div class="form-group row">
-                                        <label class="col-md-4 col-form-label
-                                        text-md-right">Confirm Password</label>
-                                        <div class="col-md-6">
-                                        <input type="password" name="confirm-password" class="form-control">
-                                    </div>
-                                </div>
-                                <!-- Update Button -->
-                            <div class="form-group row mb-0 justify-content-center">
-                                <div class="col-md-6 offset-md-4">
-                                    <button type="submit" class="btn btn-primary">Update</button>
-                                </div>
-                            </div>
-                        </form>
+                    <!-- Update Button -->
+                <div class="form-group row mb-0 justify-content-center">
+                    <div class="col-md-6 offset-md-4">
+                        <button type="submit" class="btn btn-primary">Update</button>
                     </div>
                 </div>
+            </form>
+        </div>
+    </div>
+    <br>
+
+    <div class="card card-default">
+        <div class="card-header">Create Team</div>
+        <div class="card-body">
+            <form>
+                <!-- Team Name -->
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label
+                    text-md-right">Team Name</label>
+                    <div class="col-md-6">
+                        <input type="text" name="name" class="form-control">
+                    </div>
+                </div>
+                <!-- Create Button -->
+                <div class="form-group row mb-0 justify-content-center">
+                    <div class="col-md-6 offset-md-4">
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+        <div class="card card-default">
+            <div class="card-header">Update Password</div>
+            <div class="card-body">
+                <form>
+                    <!-- Name Field -->
+                    <div class="form-group row">
+                        <label class="col-md-4 col-form-label
+                        text-md-right">Current Password</label>
+                        <div class="col-md-6">
+                            <input type="password" name="current-password" class="form-control">
+                        </div>
+                    </div>
+                    <!-- Email Address -->
+                    <div class="form-group row">
+                            <label class="col-md-4 col-form-label
+                            text-md-right">Password</label>
+                            <div class="col-md-6">
+                            <input type="password" name="new-password" class="form-control">
+                    </div>
+                    <!-- Phone Field -->
+                        </div>
+                        <div class="form-group row">
+                                <label class="col-md-4 col-form-label
+                                text-md-right">Confirm Password</label>
+                                <div class="col-md-6">
+                                <input type="password" name="confirm-password" class="form-control">
+                            </div>
+                        </div>
+                        <!-- Update Button -->
+                    <div class="form-group row mb-0 justify-content-center">
+                        <div class="col-md-6 offset-md-4">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>
+<br>
+<br>
+<br>
+<div>
+        <div class="card card-default">
+            <div class="card-header"> Current Teams</div>
+
+            <div class="table-responsive">
+                <table class="table table-valign-middle mb-0">
+                    <thead>
+                        <th class="th-fit"></th>
+                        <th>Name</th>
+                        <th>Owner</th>
+                        <th>&nbsp;</th>
+                    </thead>
+
+                    <tbody>
+                        <tr  v-for="team in teams">
+                            <!-- Photo -->
+                            <td>
+                                <img :src="team.photo_url" class="spark-profile-photo">
+                            </td>
+
+                            <!-- Team Name -->
+                            <td>
+                                <div class="btn-table-align">
+                                    {{ team.name }}
+                                </div>
+                            </td>
+
+                            <!-- Owner Name -->
+                            <td>
+                                <div class="btn-table-align">
+                                    <span v-if="user.id == team.owner.id">
+                                        You
+                                    </span>
+
+                                    <span v-else>
+                                        {{ team.owner.name }}
+                                    </span>
+                                </div>
+                            </td>
+
+                            <!-- Edit Button -->
+                            <td class="td-fit">
+                                <a :href="'/settings/teams/'+team.id">
+                                    <button class="btn btn-outline-primary">
+                                        <i class="fa fa-cog"></i>
+                                    </button>
+                                </a>
+
+                                <button class="btn btn-outline-warning" @click="approveLeavingTeam(team)"
+                                        data-toggle="tooltip" title=" Leave Team"
+                                        v-if="user.id !== team.owner_id">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                </button>
+
+                                                                    <button class="btn btn-outline-danger" @click="approveTeamDelete(team)" v-if="user.id === team.owner_id">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
+  </div>
+  </div>
+</div>
 </body>
 </html> 
