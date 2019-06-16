@@ -21,6 +21,7 @@
                 <li class="list-group-item"><i class="fas fa-users"></i> See All Teams</li>
               </ul>
             </div>
+            <br>
             <div class="card" style="width: 18rem;">
               <div class="card-header">Team Settings</div>
               <ul class="list-group list-group-flush">
@@ -32,6 +33,7 @@
                 <li class="list-group-item"><i class="fas fa-user-alt"></i> Secret Shopper Survey</li>
               </ul>
             </div>
+            <br>
             <div class="card" style="width: 18rem;">
               <div class="card-header">Team Billing</div>
               <ul class="list-group list-group-flush">
@@ -41,17 +43,20 @@
               </ul>
             </div>
           </div>
+          <br>
           <div class="container">
               <div class="card text-center">
               <div class="card-header">Profile Photo</div>
               <div class="card-body">
                 ENTER PROFILE PHOTO
                 <br>
+                <br>
                 <a href="#" class="btn btn-primary">Update Photo</a>
               </div>
             </div>
           </div>
           <div class="container">
+            <br>
             <div class="card text-center">
               <div class="card-header">Contact Information</div>
                 <div class="card-body">
@@ -62,15 +67,18 @@
                         <input type="text" class="form-control">
                       </div>
                       <br>
+                      <br>
                       <label for="email" class="col-sm-2 col-form-label">Email</label>
                       <div class="col-sm-10">
                         <input type="text" class="form-control">
                       </div>
                       <br>
+                      <br>
                       <label for="phone" class="col-sm-2 col-form-label">Phone</label>
                       <div class="col-sm-10">
                         <input type="number" class="form-control">
                       </div>
+                      <br>
                       <br>
                        <a href="#" class="btn btn-primary">Update</a>
                     </div>
@@ -79,16 +87,109 @@
             </div>
           </div>
           <br>
-          <div class="card card-default">
-              <div class="card-header">Contact Information</div>
-              <div class="card-body">
-                  <form>
-                      <div class="form-group row">
-                          <label class=""></label>
-                      </div>
-                  </form>
-              </div>
+          <div class="container">
+            <div class="card card-default">
+                <div class="card-header">Contact Information</div>
+                <div class="card-body">
+                    <form>
+                        <!-- Name Field -->
+                        <div class="form-group row">
+                            <label class="col-md-4 col-form-label
+                            text-md-right">Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                        </div>
+                        <!-- Email Address -->
+                        <div class="form-group row">
+                                <label class="col-md-4 col-form-label
+                                text-md-right">Email</label>
+                                <div class="col-md-6">
+                                <input type="email" name="email" class="form-control">
+                        </div>
+                        <!-- Phone Field -->
+                            </div>
+                            <div class="form-group row">
+                                    <label class="col-md-4 col-form-label
+                                    text-md-right">Phone</label>
+                                    <div class="col-md-6">
+                                    <input type="phone" name="phone" class="form-control">
+                                </div>
+                            </div>
+                            <!-- Update Button -->
+                        <div class="form-group row mb-0 justify-content-center">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">Update</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
           </div>
+          <br>
+          <div class="container">
+            <div class="card card-default">
+                <div class="card-header">Create Team</div>
+                <div class="card-body">
+                    <form>
+                        <!-- Team Name -->
+                        <div class="form-group row">
+                            <label class="col-md-4 col-form-label
+                            text-md-right">Team Name</label>
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                        </div>
+                        <!-- Create Button -->
+                      <div class="form-group row mb-0 justify-content-center">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">Create</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+          </div>
+          <br>
+            <div class="container">
+                <div class="card card-default">
+                    <div class="card-header">Update Password</div>
+                    <div class="card-body">
+                        <form>
+                            <!-- Name Field -->
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label
+                                text-md-right">Current Password</label>
+                                <div class="col-md-6">
+                                    <input type="password" name="current-password" class="form-control">
+                                </div>
+                            </div>
+                            <!-- Email Address -->
+                            <div class="form-group row">
+                                    <label class="col-md-4 col-form-label
+                                    text-md-right">Password</label>
+                                    <div class="col-md-6">
+                                    <input type="password" name="new-password" class="form-control">
+                            </div>
+                            <!-- Phone Field -->
+                                </div>
+                                <div class="form-group row">
+                                        <label class="col-md-4 col-form-label
+                                        text-md-right">Confirm Password</label>
+                                        <div class="col-md-6">
+                                        <input type="password" name="confirm-password" class="form-control">
+                                    </div>
+                                </div>
+                                <!-- Update Button -->
+                            <div class="form-group row mb-0 justify-content-center">
+                                <div class="col-md-6 offset-md-4">
+                                    <button type="submit" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
 </body>
 </html> 
